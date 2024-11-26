@@ -32,7 +32,7 @@ def personal_sum(numbers):
             #print(result)
         except TypeError as exc:
             incorrect_data += 1
-            print(f'Некорекктный тип данных для подсчёта суммы - {i})')
+            print(f'Некорекктный тип данных для подсчёта суммы - {i}')
     return result, incorrect_data
 
 # numbers = "1, 2, 3"
